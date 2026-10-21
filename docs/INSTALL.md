@@ -4,7 +4,14 @@
 
 克隆维护者提供的仓库URL，或下载ZIP后完整解压。不要只复制五个SKILL.md；技能通过项目相对路径读取文档和脚本。下载ZIP后，`.agents/skills/`应存在，即使文件管理器默认隐藏点开头的文件。
 
-如果准备提交改进，先在GitHub Fork，再克隆自己的Fork。上游地址由维护者提供，本指南不把尚未创建的远程地址当作已经可用。
+上游仓库为[zzchen95/social-media-workflow](https://github.com/zzchen95/social-media-workflow)：
+
+```bash
+git clone https://github.com/zzchen95/social-media-workflow.git
+cd social-media-workflow
+```
+
+如果准备提交改进，先在GitHub Fork，再克隆自己的Fork。
 
 ## 2. 在支持本地工作的客户端打开目录
 

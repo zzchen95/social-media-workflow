@@ -6,6 +6,11 @@
 
 ## 快速开始
 
+```bash
+git clone https://github.com/zzchen95/social-media-workflow.git
+cd social-media-workflow
+```
+
 1. 克隆本仓库，或下载ZIP并完整解压，保留隐藏目录`.agents/`。
 2. 在支持本地工作的ChatGPT桌面端或Codex中打开解压后的仓库文件夹。
 3. 发送下面这段话：
