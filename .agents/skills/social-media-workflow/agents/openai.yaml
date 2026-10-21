@@ -1,0 +1,4 @@
+interface:
+  display_name: "三平台内容工作向导"
+  short_description: "从当前进度引导研究、选题脚本、剪辑制作与复盘，按需调用四步技能并保存交接"
+  default_prompt: "使用 $social-media-workflow，先查看我目前的进度，推荐下一步，并在我给出目标和资料后带我逐步完成。"

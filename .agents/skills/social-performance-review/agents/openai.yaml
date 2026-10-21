@@ -1,0 +1,4 @@
+interface:
+  display_name: "D1/D7复盘与创作改进"
+  short_description: "整理发布后一天和七天的真实表现，生成可追溯的复盘、实验及后续选题脚本建议"
+  default_prompt: "使用 $social-performance-review，按D1/D7流程准备复盘和后续创作简报；发布数据未补齐时先做模板和分析计划。"

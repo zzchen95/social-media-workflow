@@ -1,0 +1,4 @@
+interface:
+  display_name: "剪辑、字幕与发布包"
+  short_description: "基于脚本与自有素材准备剪辑、字幕和三平台文案，支持多轮反馈与版本审核"
+  default_prompt: "使用 $social-content-production，读取指定第二步脚本准备制作包；素材和软件未补齐时先做方案，明确标注未执行项。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "选题与拍摄脚本"
+  short_description: "结合三平台研究与账号特点生成选题、拍摄脚本和可追溯的反馈版本"
+  default_prompt: "使用 $social-content-planning，结合最新有效研究和账号资料提出选题；资料未补齐时按探索模式处理。"

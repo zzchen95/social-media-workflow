@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "mode": "public_web_no_login",
+  "timezone": "America/Los_Angeles",
+  "lookback_days": 7,
+  "target_candidates_per_platform": 10,
+  "output_root": "docs/reports/public-research",
+  "schedule": {
+    "enabled": false,
+    "cadence": null,
+    "automation_id": null
+  },
+  "platforms": [
+    {
+      "id": "xiaohongshu",
+      "market": "中文市场",
+      "language": "zh-CN",
+      "search_terms": [
+        "小红书 本周 热点 趋势",
+        "小红书 千瓜 流行风向",
+        "小红书 新红 热点 趋势"
+      ],
+      "seed_urls": [
+        "https://www.xiaohongshu.com/explore",
+        "https://www.qian-gua.com/"
+      ]
+    },
+    {
+      "id": "tiktok",
+      "market": "US（目标市场；来源未限定地区时必须说明）",
+      "language": "en-US",
+      "search_terms": [
+        "TikTok trends this week",
+        "TikTok trending formats topics"
+      ],
+      "seed_urls": [
+        "https://ads.tiktok.com/creative/creativeCenter/trends/hashtag?countryCode=US&period=7",
+        "https://later.com/blog/tiktok-trends/",
+        "https://www.socialpilot.co/blog/tiktok-trends",
+        "https://newengen.com/insights/tiktok-trends/"
+      ]
+    },
+    {
+      "id": "instagram",
+      "market": "US（目标市场；来源未限定地区时必须说明）",
+      "language": "en-US",
+      "search_terms": [
+        "Instagram Reels trends this week",
+        "Instagram carousel trends this week"
+      ],
+      "seed_urls": [
+        "https://later.com/blog/instagram-reels-trends/",
+        "https://mysocialboutique.co/instagram-trends-2026/"
+      ]
+    }
+  ],
+  "limits": {
+    "initial_searches_per_platform": 3,
+    "followup_searches_per_platform": 2,
+    "retry_per_blocked_url": 1
+  }
+}
