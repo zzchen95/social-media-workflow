@@ -79,7 +79,7 @@ def main():
     for path in files:
         relative = path.relative_to(ROOT)
         if private_path(relative):
-            errors.append(f"Private/runtime file tracked: {relative}")
+            errors.append(f"Private/runtime file tracked: {relative.as_posix()}")
         if path.is_symlink() or not path.resolve().is_relative_to(ROOT):
             errors.append(f"Nonportable file: {relative}")
             continue
