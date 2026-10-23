@@ -31,6 +31,7 @@ Windows 可用 `py -3`；已安装本地环境时用 `.venv\Scripts\python.exe`�
 
 ## 剪映和复盘的交接
 
+- 用户要求实施/跑通剪映能力时，直接执行[实际实施剪映 Computer Use 能力](docs/implementation/jianying-capability.md)：先验证当前电脑，再完成独立小样、一次修改及用户使用交接。不能只读完文档就称能力完成。
 - 剪映：读 [Computer Use 操作参考](.agents/skills/social-content-production/references/jianying-computer-use.md)。先识别当前软件/版本/窗口，按“观察 → 单动作 → 复查”操作；不继承别人的坐标、句柄或工具验证结果。
 - 复盘到下一次剪辑：读 [留存与剪辑交接](.agents/skills/social-performance-review/references/retention-to-edit.md)。先核对实际发布视频和时间轴，再将学习记录落到脚本镜头、片段和一个实验变量。
 - D1/D7时间可用 `scripts/review_windows.py`复算。该工具不采集指标、不设置提醒，也不能诊断流失原因。

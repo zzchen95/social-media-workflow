@@ -51,6 +51,8 @@ py -3 scripts/bootstrap.py
 
 ## 剪映制作与复盘闭环
 
+新 agent 需要实施剪映能力时，按[实际实施任务](docs/implementation/jianying-capability.md)在用户当前电脑逐项跑通小样、恢复和一次修改，并指导用户使用；没有实测的项保留未验证。
+
 第三步增加[剪映 Computer Use 操作参考](.agents/skills/social-content-production/references/jianying-computer-use.md)：当前窗口识别、小样验证、工程保护、字幕、平台版本、本地导出、检查和断点恢复。第四步增加[留存到剪辑交接](.agents/skills/social-performance-review/references/retention-to-edit.md)：核对实际发布版与时间轴，把一个实验变量对应到脚本镜头、片段及剪映操作意图；执行验收与效果验证分开。
 
 这些是可执行的方法，不能替代用户当前电脑的实机小样。新 agent 用 `python scripts/agent_start.py` 只读识别档案；D1/D7可用 `scripts/review_windows.py` 复算时间。第一步完整保留为按需研究，默认日程关闭。

@@ -74,6 +74,7 @@ def main():
     relative_files = {p.relative_to(ROOT).as_posix() for p in files}
     required = {"config/public_research.json", "scripts/public_research.py", "scripts/check_markdown_tables.py",
                 "scripts/agent_start.py", "scripts/review_windows.py", "START_HERE.md", "README.md", "AGENTS.md",
+                "docs/implementation/jianying-capability.md",
                 ".agents/skills/social-content-production/references/jianying-computer-use.md",
                 ".agents/skills/social-performance-review/references/retention-to-edit.md"}
     for missing in sorted(required - relative_files):
