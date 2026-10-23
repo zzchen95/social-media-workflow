@@ -6,6 +6,27 @@
 
 ## 快速开始
 
+### 复制给自己的 agent
+
+将下面整段复制给支持本地文件和终端的 agent，即可从克隆、本地化和自检开始，再按仓库流程实施剪映能力。实际电脑操作还需要当前环境提供 Computer Use 工具，验证要求见[实际实施任务](docs/implementation/jianying-capability.md)。
+
+```text
+请获取并在本地使用这个仓库：
+https://github.com/zzchen95/social-media-workflow
+
+1. 在当前已授权工作区克隆完整仓库，保留隐藏目录 .agents。若已有克隆，先核对远端和工作区改动；仅在安全时更新，不覆盖个人修改或运行数据。
+
+2. 读取 AGENTS.md、README.md、START_HERE.md 和 docs/INSTALL.md。根据当前操作系统配置仓库内的 Python 环境，不复制到全局技能目录，不安装无关软件。
+
+3. 运行安装自检和 scripts/agent_start.py，核对五个技能、文件引用、已有进度和延期资料。没有历史资料就从空项目开始，不继承维护者的账号、素材或测试结果。
+
+4. 使用 $social-media-workflow，继续执行仓库内的“实际实施剪映 Computer Use 能力”任务，并逐步指导我使用。操作细节、验证、恢复和交付要求以仓库文档为准。
+
+请实际完成当前工具和权限允许的工作，不只返回计划。缺少必要资料或工具时，说明具体阻塞和我需要完成的一步，同时继续其他可做的部分。不要读取 Token、修改安全设置、创建定时任务或发布内容；未经我明确要求，不推送 GitHub 或创建 PR。
+```
+
+### 手动克隆和安装
+
 ```bash
 git clone https://github.com/zzchen95/social-media-workflow.git
 cd social-media-workflow
@@ -13,9 +34,7 @@ cd social-media-workflow
 
 1. 克隆本仓库，或下载ZIP并完整解压，保留隐藏目录`.agents/`。
 2. 在支持本地工作的ChatGPT桌面端或Codex中打开解压后的仓库文件夹。
-3. 发送下面这段话：
-
-> 读取AGENTS.md和START_HERE.md，运行只读安装检查和agent_start.py，再使用 $social-media-workflow 根据我的目标直接推进可做的一步。核对真实版本和延期资料，不把演练当实际结果，不创建scheduled task或发布内容。
+3. 将上面的完整启动提示发给 agent；它会识别已有克隆并继续。
 
 本地终端也可以先运行：
 
