@@ -184,3 +184,7 @@ content/experiments/<experiment-id>/results-v001.md
 | 复盘建议被用于下一条 | 保存采纳理由、实验变量及实际执行情况，发布后再验证 |
 
 配套：[输入、指标、复盘与实验模板](step4-templates.md) · [D1到D7及脚本改写的假设演练](../../examples/review.md)。
+
+## 留存与下一次剪辑
+
+需要将留存/表现落到具体制作动作时，按[留存到剪辑交接](../../.agents/skills/social-performance-review/references/retention-to-edit.md)核对实际发布版、导出时间、剪映时间与镜头ID，再保存 next-edit-brief。优先一项变量，制作验收与发布后效果验证分开；D1/D7目标可用 `scripts/review_windows.py`复算，不创建日程。

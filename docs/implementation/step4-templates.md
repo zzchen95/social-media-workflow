@@ -139,3 +139,7 @@ adopted / deferred / not_applicable / 原因
 ```
 
 修订用supersedes指向稳定旧ID；互补记录使用另一row_id、complements指向同帖同截止的目标，重叠指标只核对不累加，冲突则待核实/拒绝。来源Pointer与输入SHA一起固定，重排时重新定位，不能沿用旧数组索引。此约定补充来源关系，不更改第二步的learning/brief版本与摘要接口，也不强制迁移历史档案。
+
+## 交给剪映与阶段修订的补充字段
+
+按[留存到剪辑参考](../../.agents/skills/social-performance-review/references/retention-to-edit.md)记录：实际发布版与导出摘要、留存坐标/精度、导出区间到片段/脚本镜头的映射、原因假设及反例、一个剪辑变量和保留项、proposed/adopted/implemented/checked的各自依据、新包摘要或null。D7逐项说明保留/修正/撤回哪些D1判断；checked只指执行检查，不代表效果已验证。

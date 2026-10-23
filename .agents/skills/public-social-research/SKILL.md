@@ -9,6 +9,8 @@ description: 研究小红书、TikTok、Instagram 的近期公开 topic/style �
 
 ## 入口与配置
 
+默认按需执行，不预装或恢复 scheduled task。取消日程不会移除本技能；用户明确要求本轮研究时仍完整执行 prepare、真实网页采集、保存及 check。设置/安装技能或查看进度不触发研究。
+
 在项目根目录读取 `config/public_research.json` 和 `docs/implementation/step1-public-research.md`。后者包含字段定义及运行方法。参考最近一份实际研究报告确定变化，但所有“本周”证据都要重新查阅。首次使用没有历史报告时从空白研究开始；examples中的教学案例不是实际研究。
 
 准备档案：`python scripts/public_research.py prepare`。显式日期使用 `--date YYYY-MM-DD`。默认以 America/Los_Angeles 当天为截止，含当天回溯 7 个日历日，注明当前日尚未结束。用户指定其他窗口时使用独立配置副本，保留准确日期。脚本只创建空白档案，不执行检索。

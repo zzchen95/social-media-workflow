@@ -188,3 +188,7 @@ media/production/<content-id>/bundle-v001/platforms/<platform>/captions.srt
 | 用户已发布并改过平台文案 | 登记实际版本和差异，再交给 D1/D7 复盘 |
 
 配套：[输入、剪辑、字幕与审核模板](step3-templates.md) · [两轮反馈的假设演练](../../examples/production.md)。
+
+## 剪映专项执行
+
+用户选择剪映时，按[剪映 Computer Use 参考](../../.agents/skills/social-content-production/references/jianying-computer-use.md)验证当前软件、窗口、小样、工程保护、字幕与本地导出。记录 editor-session 及跨版本片段映射，不能把写好操作方法当实机通过；第四步传来的 next-edit-brief 固定到学习记录和实验变量后再执行。

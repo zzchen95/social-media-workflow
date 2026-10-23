@@ -17,7 +17,9 @@ cd social-media-workflow
 
 使用ChatGPT桌面端的本地项目或Codex，在仓库根目录工作。向当前聊天发送：
 
-> 读取README和AGENTS.md，运行安装自检，再使用 $social-media-workflow 引导我开始。按当前资料和工具能做的范围推进，不启用日程或发布内容。
+> 读取AGENTS.md和START_HERE.md，运行只读安装检查与agent_start.py，再使用 $social-media-workflow 按我的目标推进。不要启用日程或发布内容。
+
+新的 agent 不需要旧聊天记录，具体接手步骤见[START_HERE](../START_HERE.md)。现有工作仍要从用户自己的本地档案恢复；仓库不会包含维护者的账号、素材或试跑历史。
 
 如果技能名未出现在当前会话，先要求读取`.agents/skills/social-media-workflow/SKILL.md`执行，必要时重新进入该项目会话。仓库存在只证明文件已获取，不证明客户端已启用对应技能或有媒体操作工具。
 
@@ -53,6 +55,14 @@ python scripts/bootstrap.py --check
 
 新仓库没有账号、研究结果、原片、成片、发布记录或计划任务。让向导按目标启动公开研究或先做常青探索；没有研究就不声称基于“最新趋势”。
 
+只读查看可用研究、检查点、延期项和引用失配：
+
+```bash
+python scripts/agent_start.py
+```
+
+输出多个真实工作流时由用户指定本轮对象；演练不会自动选中。该命令不会创建业务记录、联网或打开软件，不能验证批准和媒体质量。
+
 研究档案准备示例：
 
 ```bash
@@ -62,6 +72,8 @@ python scripts/public_research.py prepare
 此命令只生成空白prepared目录，不会联网或产出研究；需要ChatGPT的真实搜索/读取。研究结束后运行check并核对summary，不能将prepared称完成。
 
 实际制作前使用自己的软件/素材验证小样；转写、Computer Use、字体、编解码器和播放能力分别核实。安装包不提供或声称已验证这些能力。
+
+使用剪映读[专项参考](../.agents/skills/social-content-production/references/jianying-computer-use.md)，不全局复制维护者插件路径或修改允许列表。当前 Computer Use 不可用时保存具体失败阶段，继续制作方案，不能用Shell UI自动化绕过。
 
 默认时区与市场见`config/public_research.json`。若要私有覆盖，复制到被忽略的`config/local/public_research.json`并按需求编辑，给工具传`--config`，不要修改历史快照。日程默认关闭，只有用户明确请求才另行配置。
 
